@@ -36,7 +36,7 @@ export default function Team() {
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Our team is made up of the best and brightest minds in the industry.
-            Together, we're dedicated to helping you succeed.
+            Together, we`&apos;`re dedicated to helping you succeed.
           </p>
         </div>
         <ul

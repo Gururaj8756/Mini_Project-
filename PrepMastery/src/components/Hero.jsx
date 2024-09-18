@@ -1,4 +1,3 @@
-import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
@@ -14,6 +13,7 @@ const Hero = () => {
               <img
                 src="Hero_img.png"
                 className="mx-3 max-w-screen-sm rounded-lg"
+                loading="lazy" // Lazy load 
               />
               <div className="text-left font-serif ">
                 <h1 className="text-5xl font-bold  ">
@@ -37,7 +37,8 @@ const Hero = () => {
         <img
           className="rounded w-full sm:w-8/12 shadow-2xl hover:shadow-lg"
           src="Hero_3_.png"
-        ></img>
+          loading="lazy" 
+        />
       </div>
     </>
   );
