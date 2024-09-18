@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const About = () => {
   return (
@@ -6,7 +6,7 @@ const About = () => {
       <div className="sm:flex items-center max-w-screen-xl ml-1 sm:ml-40">
         <div className="sm:w-1/2 p-10">
           <div className="image object-center text-center">
-            <img src="About.png" />
+            <img src="About.png" loading="lazy" />
           </div>
         </div>
         <div className="sm:w-1/2  ml-36">
@@ -20,11 +20,11 @@ const About = () => {
             <p className=" mb-3 ">
               PrepMastery offers specialized training programs designed to meet
               your specific placement requirements, providing both accredited
-              and company specific Companies. Whether you're seeking
+              and company specific Companies. Whether you`&apos;`re seeking
               certification or skill development, PrepMastery delivers
               comprehensive training solutions. Our programs are carefully
               crafted to enhance your qualifications and readiness for
-              placement opportunities.
+              placement opportunities.
             </p>
           </div>
         </div>
